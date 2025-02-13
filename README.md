@@ -8,8 +8,9 @@ Interaction with climate, car settings, and other systems without any issues, th
 For displaying the navigation map and navigation instructions, i using my custom multimedia system, which is under development.
 
 More information and videos coming soon.
-# Demo video
-[Link](https://youtu.be/i1HMDwnfqPg "Link")
+# Demo
+[In-Vehicle demo](https://youtu.be/5xK9Aua130s "In-Vehicle demo")
+[Bench demo](https://youtu.be/i1HMDwnfqPg "Bench demo")
 # Screenshots
 ![](screenshots/night_On.png)
 ![](screenshots/night_Off.png)

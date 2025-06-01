@@ -4,7 +4,9 @@
 *The provided code was used only for the demo videos and **does not represent the actual software functionality**.*
 
 ***The code is up to date as of the date of publication, June 1, 2025, and will not be maintained.***
+
 <br/>
+
 *Due to copyright reasons, some items may be missing in the repository. For example: fonts, icons, sounds, etc.
 This may affect the build/use of the project. Replace these items if necessary.*
 

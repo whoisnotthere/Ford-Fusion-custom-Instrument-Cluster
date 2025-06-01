@@ -1,0 +1,1445 @@
+{
+    "GTW_ENGINE_CoolantOverheat": {
+        "header": "Engine coolant overheated",
+        "body": "PULL OVER SAFELY. SHUTDOWN ENGINE",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/coolant_Temperature.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+	
+    "GTW_ENGINE_OilOverheat": {
+        "header": "Engine oil overheated",
+        "body": "PULL OVER SAFELY. SHUTDOWN ENGINE",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/coolant_Temperature.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_STEERING_SteeringLoss": {
+        "header": "POWER STEERING LOSS",
+        "body": "PULL OVER SAFELY. SERVICE REQUIRED",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+	
+    "GTW_ENGINE_LowOilPressure": {
+        "header": "Engine oil low pressure",
+        "body": "PULL OVER SAFELY. SHUTDOWN ENGINE",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/oil_Level.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+	
+    "GTW_BRAKE_ParkingBrakeAppliedWhenDrive": {
+        "header": "Parking Brake applied",
+        "body": "RELEASE PARKING BRAKE",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/brake_System_Warning.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_BRAKE_BrakeFluidLevelLow": {
+        "header": "Brake fluid level low",
+        "body": "PULL OVER SAFELY",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/brake_System_Warning.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_SHIFTSYSTEM_ConfirmParkingBrakeApplyBeforeExitingVehicle": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Confirm Parking Brake is applied before exiting the vehicle",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_VehicleIsShiftingToPark": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Vehicle is shifting to Park",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_ServiceRequired": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_ReverseUnavailable": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Reverse unavailable. Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_NeutralUnavailable": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Neutral unavailable. Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_DriveUnavailableSelectS": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Drive unavailable. Select S. Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_DriveUnavailableSelectL": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Drive unavailable. Select L. Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_SportUnavailable": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Sport unavailable. Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_LowUnavailable": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Low unavailable. Service required",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_SHIFTSYSTEM_CannotShiftTransmission": {
+        "header": "SHIFTING SYSTEM FAULT",
+        "body": "Cannot shift transmission. Use Parking Brake to secure vehicle",
+        "style": "WARNING_CRITICAL",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_FUEL_FuelLevelCritical": {
+        "header": "Fuel level critical",
+        "body": "REFUEL NOW",
+        "style": "WARNING_CRITICAL",
+        "priority": 6,
+        "custom_Icon": "qrc:/icons/alerts/fuel.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "INTERNAL_HardwareFailure": {
+        "header": "Instrument cluster internal hardware failure detected",
+        "body": "Instrument cluster may shut down or reboot unexpectedly",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_IC_SoftwareVersionMismatch": {
+        "header": "Software update required",
+        "body": "Instrument cluster software version mismatch",
+        "style": "NOTIFICATION",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_MCU_SoftwareVersionMismatch": {
+        "header": "Software update required",
+        "body": "Center screen software version mismatch",
+        "style": "NOTIFICATION",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "INTERNAL_DriverSeatBeltUnbuckled": {
+        "header": "Driver seatbelt unbuckled",
+        "body": "Fasten seatbelt",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/seatBelt.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "INTERNAL_PassengerSeatBeltUnbuckled": {
+        "header": "Passenger seatbelt unbuckled",
+        "body": "Fasten seatbelt",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/seatBelt.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+    
+    "GTW_FUEL_FuelLevelVeryLow": {
+        "header": "Fuel level very low",
+        "body": "Refuel as soon as possible",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/fuel.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "INTERNAL_DataTooOld": {
+        "header": "Lost communication with vehicle systems",
+        "body": "Instrument cluster information may not be accurate",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_CANBUS_HS1_Lost": {
+        "header": "Lost communication with vehicle systems",
+        "body": "HS1 CAN BUS is unavailable",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+	"GTW_CANBUS_HS2_Lost": {
+        "header": "Lost communication with vehicle systems",
+        "body": "HS2 CAN BUS is unavailable",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+	"GTW_CANBUS_HS3_Lost": {
+        "header": "Lost communication with vehicle systems",
+        "body": "HS3 CAN BUS is unavailable",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+	"GTW_CANBUS_MS_Lost": {
+        "header": "Lost communication with vehicle systems",
+        "body": "MS CAN BUS is unavailable",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+    
+	"GTW_CANBUS_Private_Lost": {
+        "header": "Lost communication with vehicle systems",
+        "body": "Private CAN BUS is unavailable",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },    
+
+    "GTW_STEERING_SteeringFault": {
+        "header": "Power steering fault",
+        "body": "Service now",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_STEERING_ServiceRequired": {
+        "header": "Steering assist fault",
+        "body": "Service required",
+        "style": "WARNING",
+        "priority": 4,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_HoodIsOpen": {
+        "header": "Hood is open",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+		"custom_Icon": "qrc:/icons/alerts/hood_Open.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_TrunkIsOpen": {
+        "header": "Trunk is open",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+		"custom_Icon": "qrc:/icons/alerts/trunk_Open.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_DriverDoorIsOpen": {
+        "header": "Driver door is open",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/door_Open.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_PassengerDoorIsOpen": {
+        "header": "Passenger door is open",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/door_Open.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+    
+    "GTW_ELECTRIC_RearLeftDoorIsOpen": {
+        "header": "Rear left door is open",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/door_Open.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_RearRightDoorIsOpen": {
+        "header": "Rear right door is open",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/door_Open.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TireLow": {
+        "header": "Tire low",
+        "body": "",
+        "style": "WARNING",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/tpms_System.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ChargingSystemServiceNow": {
+        "header": "Charging System fault",
+        "body": "Charging System needs service",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/12v_Battery.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ChargingSystemServiceSoon": {
+        "header": "Charging System fault",
+        "body": "Charging System needs service soon",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/12v_Battery.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_CriticalLowVehicleBattery": {
+        "header": "Vehicle battery charge very low",
+        "body": "Vehicle may shut down unexpectedly",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/12v_Battery.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionFault": {
+        "header": "Transmission malfunction",
+        "body": "Transmission needs service",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionOverTemperature": {
+        "header": "Transmission over temperature",
+        "body": "Pull over safely. Shift to Park",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_POWERTRAIN_TransmissionTooHotWarning": {
+        "header": "Transmission too hot",
+        "body": "Pull over safely. Let the transmission cool down",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_POWERTRAIN_TransmissionOverheating": {
+        "header": "Transmission overheating",
+        "body": "Pull over safely. Shift to Park",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_PARKINGBRAKE_MaintenanceMode": {
+        "header": "Parking Brake maintenance mode",
+        "body": "",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_SystemMalfunction": {
+        "header": "Parking Brake malfunction",
+        "body": "SERVICE REQUIRED",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_NotReleased": {
+        "header": "Parking Brake not released",
+        "body": "DO NOT DRIVE. SERVICE REQUIRED",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_NotApplied": {
+        "header": "Parking Brake not applied",
+        "body": "SERVICE REQUIRED. VEHICLE MAY BE FREE ROLLING",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_SystemOverheated": {
+        "header": "Parking Brake System overheated",
+        "body": "WAIT FOR SYSTEM COOL DOWN",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_SystemLimitedFunction": {
+        "header": "Parking Brake System limited function",
+        "body": "SERVICE REQUIRED",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_BRAKE_CheckBrakeSystem": {
+        "header": "Check Brake System",
+        "body": "Brake System needs service",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/brake_System_Warning.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_KeepHandsOnWheelAlert": {
+        "header": "Keep hands on Steering Wheel",
+        "body": "",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/steering_Wheel.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_ADAS_DriverAlertRestNow": {
+        "header": "Driver rest is required",
+        "body": "Driver is tired",
+        "style": "WARNING",
+        "priority": 4,
+        "custom_Icon": "qrc:/icons/alerts/rest.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_FUEL_FuelLevelLow": {
+        "header": "Fuel level low",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/fuel.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_WindshieldWasherLow": {
+        "header": "Windshield washer fluid low",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 0,
+        "custom_Icon": "qrc:/icons/alerts/winshield_Fluid_Low.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_CrankingTimeExceeded": {
+        "header": "Cranking time exceeded. Engine cannot be started",
+        "body": "Wait 15-30 minutes and try start engine again",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_McuNotResponding": {
+        "header": "Center screen not responding",
+        "body": "Reboot the screen by holding the Left and Right OK buttons",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_EngineStartPendingCancelled": {
+        "header": "Engine start pending cancelled",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_SeeManual": {
+        "header": "See manual",
+        "body": "Vehicle needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/wrench.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_SeeManual": {
+        "header": "See manual",
+        "body": "Vehicle needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/wrench.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_SeeManual": {
+        "header": "See manual",
+        "body": "Vehicle needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/wrench.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_HillStartNotAvailable": {
+        "header": "Hill start assist not available",
+        "body": "Service required",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_FactoryMode": {
+        "header": "Factory mode",
+        "body": "Contact dealer",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TransportMode": {
+        "header": "Transport mode",
+        "body": "Contact dealer",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_SystemFail": {
+        "header": "TPMS fault",
+        "body": "TPMS needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_SensorFail": {
+        "header": "TPMS sensor fail",
+        "body": "Replace TPMS sensor",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TrainLeftFrontTire": {
+        "header": "Train left front tire",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TrainRightFrontTire": {
+        "header": "Train right front tire",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TrainRightRearTire": {
+        "header": "Train right rear tire",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TrainLeftRearTire": {
+        "header": "Train left rear tire",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TrainingComplete": {
+        "header": "Tires training complete",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_TPMS_TiresNotTrained": {
+        "header": "Tires not trained",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_VehicleAlarm": {
+        "header": "Vehicle alarm triggered",
+        "body": "To stop alarm, start vehicle",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": true
+    },
+
+    "GTW_ELECTRIC_OccupantSensorBlocked": {
+        "header": "Occupant sensor blocked",
+        "body": "Remove objects near the passenger seat",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_TurnPowerOffToSaveVehicleBattery": {
+        "header": "Vehicle battery charge low",
+        "body": "Turn power off to save battery charge level",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/12v_Battery.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_LowVehicleBattery": {
+        "header": "Vehicle battery charge low",
+        "body": "Features temporarily turned off to save battery charge level",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/12v_Battery.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionServiceRequired": {
+        "header": "Transmission service required",
+        "body": "Transmission needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionLimitedFunction": {
+        "header": "Transmission limited function",
+        "body": "See manual",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_InvalidGearSelection": {
+        "header": "Invalid gear selection",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_DepressBrakeToShiftFromPark": {
+        "header": "Depress brake to shift from Park",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionNotInPark": {
+        "header": "Transmission not in Park",
+        "body": "Proceed with caution",
+        "style": "NOTIFICATION",
+        "priority": 10,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ENGINE_CheckFuelFillInlet": {
+        "header": "Check fuel fill inlet",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionTooHotNotification": {
+        "header": "Transmission too hot",
+        "body": "Pull over safely. Let the transmission cool down",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ChildLockMalfunction": {
+        "header": "Child lock malfunction",
+        "body": "Service required",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_NoKeyDetected": {
+        "header": "No key detected",
+        "body": "Cannot start engine",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_KeyProgramFailure": {
+        "header": "Key program failure",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_NotEnoughKeysLearned": {
+        "header": "Not enough keys learned",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_StartingSystemFault": {
+        "header": "Starting System fault",
+        "body": "Cannot start engine",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_MaxNumberOfKeysLearned": {
+        "header": "Max number of keys learned",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_FullAccessoryPowerActive": {
+        "header": "Full accessory power active",
+        "body": "Vehicle systems are powered by battery only",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKAID_CheckParkAid": {
+        "header": "Check Park Aid System",
+        "body": "Park Aid System needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_TRACTIONCONTROL_MyKeyOn": {
+        "header": "AdvanceTrac ON MyKey setting",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_FrontCameraTemporarilyUnavailable": {
+        "header": "Front Camera temporarily unavailable",
+        "body": "Driver Assist functions limited",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_FrontCameraLowVisibility": {
+        "header": "Front Camera low visibility",
+        "body": "Driver Assist functions limited",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_FrontCameraMalfunction": {
+        "header": "Front Camera malfunction. Service required",
+        "body": "Driver Assist functions limited",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_LaneKeepingSystemMalfunction": {
+        "header": "Lane Keeping System malfunction. Service required",
+        "body": "Driver Assist functions limited",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_DriverAlertRestSuggested": {
+        "header": "Driver rest is recommended",
+        "body": "Driver is tired",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/rest.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ADAS_KeepHandsOnWheel": {
+        "header": "Keep hands on Steering Wheel",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/steering_Wheel.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_TRACTIONCONTROL_ServiceRequired": {
+        "header": "AdvanceTrac System fault",
+        "body": "Service required",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ENGINE_VehicleShutsOff30Seconds": {
+        "header": "Vehicle shuts off in 30 seconds",
+        "body": "Press left OK button to override",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ENGINE_VehicleShutsOffToSaveEnergy": {
+        "header": "Vehicle shuts off to save energy",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ENGINE_PowerReducedToLowerEngineTemperature": {
+        "header": "Engine power reduced to lower temperature",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_BLINDSPOT_RadarFault": {
+        "header": "Blind Spot System fault",
+        "body": "Blind Spot System needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_BLINDSPOT_CrossTrafficSystemFault": {
+        "header": "Cross Traffic System fault",
+        "body": "Cross Traffic System needs service",
+        "style": "NOTIFICATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_BLINDSPOT_VehicleComingFromLeft": {
+        "header": "Vehicle coming from Left",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 10,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_BLINDSPOT_VehicleComingFromRight": {
+        "header": "Vehicle coming from Right",
+        "body": "",
+        "style": "NOTIFICATION",
+        "priority": 10,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PoweringUp": {
+        "header": "Systems are powering up",
+        "body": "Please wait",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ToDrivePressStartButton": {
+        "header": "To drive press Start/Stop button",
+        "body": "Vehicle in Remote Start mode",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ToStartPressClutch": {
+        "header": "To START press clutch",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ToStartPressBrakeAndClutch": {
+        "header": "To START press Brake and Clutch",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_ToStartPressBrake": {
+        "header": "To START press Brake",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_EngineStartPending": {
+        "header": "Engine start pending",
+        "body": "Please wait",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_BRAKE_ParkingBrakeApplied": {
+        "header": "Parking Brake applied",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_BRAKE_ParkingBrakeReleased": {
+        "header": "Parking Brake released",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 10,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_SpinoutDetected": {
+        "header": "Spinout detected",
+        "body": "Hazard lights activated",
+        "style": "INFORMATION",
+        "priority": 10,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionAdjusted": {
+        "header": "Transmission adjusted",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionWarmingUp": {
+        "header": "Transmission warming up",
+        "body": "Please wait",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionAdaptMode": {
+        "header": "Transmission AdaptMode",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionIndicatModeLockupON": {
+        "header": "Transmission IndicatMode lockup ON",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionIndicatModeLockupOFF": {
+        "header": "Transmission IndicatMode lockup OFF",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ToStayInNeutralSelectNeutralAgain": {
+        "header": "To stay in Neutral when exiting vehicle",
+        "body": "Select Neutral (N) again",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_StayInNeutralModeEngaged": {
+        "header": "Stay in Neutral mode engaged",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_NeutralTowEngaged": {
+        "header": "Neutral tow engaged",
+        "body": "Depress Brake and select Park to exit Neutral tow",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ReverseWillEngageAtLowSpeed": {
+        "header": "Reverse will engage at low speed",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_SportNotAvailableInSelectedGear": {
+        "header": "Sport not available in selected gear",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ToConfirmStayInNeutralSelectS": {
+        "header": "To confirm stay in Neutral",
+        "body": "Select Sport (S)",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ToConfirmStayInNeutralSelectL": {
+        "header": "To confirm stay in Neutral",
+        "body": "Select Low (L)",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ParkWillEngageAtLowSpeed": {
+        "header": "Park will engage at low speed",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ShiftToPark": {
+        "header": "Shift to Park",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_StayInNeutralPressBrakeToUnlockShifter": {
+        "header": "Stay in Neutral mode",
+        "body": "Press Brake to unlock shifter",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_ToConfirmStayInNeutralSelectM": {
+        "header": "To confirm stay in Neutral",
+        "body": "Select Manual (M)",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_POWERTRAIN_TransmissionTooHotInformation": {
+        "header": "Transmission too hot",
+        "body": "Pull over safely. Let the transmission cool down",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/transmission.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+    
+    "GTW_POWERTRAIN_TransmissionPressBrake": {
+        "header": "Press Brake pedal",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": false,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_UseSwitchToRelease": {
+        "header": "To release Parking Brake",
+        "body": "Push Parking Brake switch",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_PARKINGBRAKE_ToReleasePressBrakeAndSwitch": {
+        "header": "To release Parking Brake",
+        "body": "Press Brake and push Parking Brake switch",
+        "style": "INFORMATION",
+        "priority": 2,
+        "custom_Icon": "qrc:/icons/alerts/parking_Brakes.svg",
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_KeyBatteryLow": {
+        "header": "Key battery low",
+        "body": "Replace key battery soon",
+        "style": "INFORMATION",
+        "priority": 0,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    },
+
+    "GTW_ELECTRIC_KeyProgramSuccessful": {
+        "header": "Key programmed successfully",
+        "body": "",
+        "style": "INFORMATION",
+        "priority": 2,
+		"customer_Visible": true,
+        "sound": true,
+        "repeat_Sound": false
+    }
+}

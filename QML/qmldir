@@ -1,0 +1,3 @@
+singleton StyleSheet 1.0 StyleSheet.qml
+singleton FontsManager 1.0 FontsManager.qml
+singleton AssetsManager 1.0 AssetsManager.qml

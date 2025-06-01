@@ -1,7 +1,7 @@
 # Disclaimer
 *The code is provided for **educational purposes only**, and the use of the code/parts of the code for **commercial purposes is not permitted**.*
 
-*The provided code was used only for the demo videos and **does not reflect the actual software functionality**.*
+*The provided code was used only for the demo videos and **does not represent the actual software functionality**.*
 
 ***The code is up to date as of the date of publication, June 1, 2025, and will not be maintained.***
 
